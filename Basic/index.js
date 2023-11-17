@@ -1,7 +1,7 @@
 // 
-let c=10;
-console.log(c);
-console.warn(c);
+// let c=10;
+// console.log(c);
+// console.warn(c);
 // you have to find out the difference
 
 //---------------------------------------------------------------
@@ -18,7 +18,7 @@ console.warn(c);
 
 // if we want to use file   system then we need to import fs module
 // using f variable we can perform the following
-const f = require('fs');
+ const f = require('fs');
 //  writeFileSync--> it is A method that use to create a new file and write some contenet in side the file using this
 
 //---------------------------------------------------------------------------------------------------- 
@@ -27,7 +27,8 @@ const f = require('fs');
 
 f.writeFileSync("hello.txt","hii this is the content in side the file name hello.txt");
 
-//hello world
+// hello world 
+// ------------------->
 
 
 
